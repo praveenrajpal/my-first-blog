@@ -76,6 +76,14 @@ db.sqlite3
 .DS_Store
 *****
 git status
+git add --all .
+git commit -m "My Django Girls app, first commit"
+git remote add origin https://github.com/praveenrajpal/my-first-blog.git
+git push -u origin master
+PythonAnywhere
+Generate API token
+pip3.6 install --user pythonanywhere
+pa_autoconfigure_django.py https://github.com/praveenrajpal/my-first-blog.git
 
 
 
