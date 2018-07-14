@@ -16,7 +16,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
-class Movies(models.Model):
+class Movie(models.Model):
     director = models.ForeignKey('auth.User', on_delete=models.CASCADE)
     movie_title = models.CharField(max_length=200)
     synopsis = models.TextField()
